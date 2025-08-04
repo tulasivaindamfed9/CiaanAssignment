@@ -1,0 +1,48 @@
+.post-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .post-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #d1d5db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 0.75rem;
+  }
+  
+  .post-author-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-author-name {
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .post-date {
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+  
+  .post-content {
+    font-size: 1rem;
+    color: #374151;
+    line-height: 1.5;
+  }
+  
