@@ -20,7 +20,7 @@ class Post extends Component {
       <div className="post-card">
         <div className="post-header">
           <div className="post-avatar">
-            {post.author.name.charAt(0).toUpperCase()}
+            {post.author.name}
           </div>
           <div className="post-author-info">
             <h3 className="post-author-name">{post.author.name}</h3>
